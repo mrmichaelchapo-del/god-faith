@@ -30,3 +30,205 @@
   "displayName": "fidev"
   "userNumber": "5"
 }
+[
+  {
+    "username": "River",
+    "email": "river@gmail.com",
+    "password": "CHANGE_ME_2",
+    "displayName": "River",
+    "userNumber": "2"
+  },
+  {
+    "username": "Sky",
+    "email": "sky@gmail.com",
+    "password": "CHANGE_ME_3",
+    "displayName": "Sky",
+    "userNumber": "3"
+  },
+  {
+    "displayName": "REDIRECT, CANNOT BE ACCESSED",
+    "userNumber": "4"
+  },
+  {
+    "username": "Pixel",
+    "email": "pixel@gmail.com",
+    "password": "CHANGE_ME_5",
+    "displayName": "Pixel",
+    "userNumber": "5"
+  },
+  {
+    "username": "Echo",
+    "email": "echo@gmail.com",
+    "password": "CHANGE_ME_6",
+    "displayName": "Echo",
+    "userNumber": "6"
+  },
+  {
+    "username": "Atlas",
+    "email": "atlas@gmail.com",
+    "password": "CHANGE_ME_7",
+    "displayName": "Atlas",
+    "userNumber": "7"
+  },
+  {
+    "username": "Luna",
+    "email": "luna@gmail.com",
+    "password": "CHANGE_ME_8",
+    "displayName": "Luna",
+    "userNumber": "8"
+  },
+  {
+    "username": "Orion",
+    "email": "orion@gmail.com",
+    "password": "CHANGE_ME_9",
+    "displayName": "Orion",
+    "userNumber": "9"
+  },
+  {
+    "username": "Clover",
+    "email": "clover@gmail.com",
+    "password": "CHANGE_ME_10",
+    "displayName": "Clover",
+    "userNumber": "10"
+  },
+  {
+    "username": "Jasper",
+    "email": "jasper@gmail.com",
+    "password": "CHANGE_ME_11",
+    "displayName": "Jasper",
+    "userNumber": "11"
+  },
+  {
+    "username": "Sage",
+    "email": "sage@gmail.com",
+    "password": "CHANGE_ME_12",
+    "displayName": "Sage",
+    "userNumber": "12"
+  },
+  {
+    "username": "Phoenix",
+    "email": "phoenix@firefox.com",
+    "password": "CHANGE_ME_13",
+    "displayName": "Phoenix",
+    "userNumber": "13"
+  },
+  {
+    "username": "Milo",
+    "email": "milo@gmail.com",
+    "password": "CHANGE_ME_14",
+    "displayName": "Milo",
+    "userNumber": "14"
+  },
+  {
+    "username": "Willow",
+    "email": "willow@example.com",
+    "password": "CHANGE_ME_15",
+    "displayName": "Willow",
+    "userNumber": "15"
+  },
+  {
+    "username": "Comet",
+    "email": "comet@example.com",
+    "password": "CHANGE_ME_16",
+    "displayName": "Comet",
+    "userNumber": "16"
+  },
+  {
+    "username": "Aria",
+    "email": "aria@example.com",
+    "password": "CHANGE_ME_17",
+    "displayName": "Aria",
+    "userNumber": "17"
+  },
+  {
+    "username": "Cedar",
+    "email": "cedar@example.com",
+    "password": "CHANGE_ME_18",
+    "displayName": "Cedar",
+    "userNumber": "18"
+  },
+  {
+    "username": "Blaze",
+    "email": "blaze@example.com",
+    "password": "CHANGE_ME_19",
+    "displayName": "Blaze",
+    "userNumber": "19"
+  },
+  {
+    "username": "Ivy",
+    "email": "ivy@example.com",
+    "password": "CHANGE_ME_20",
+    "displayName": "Ivy",
+    "userNumber": "20"
+  },
+  {
+    "username": "Cosmo",
+    "email": "cosmo@example.com",
+    "password": "CHANGE_ME_21",
+    "displayName": "Cosmo",
+    "userNumber": "21"
+  },
+  {
+    "username": "Rain",
+    "email": "rain@example.com",
+    "password": "CHANGE_ME_22",
+    "displayName": "Rain",
+    "userNumber": "22"
+  },
+  {
+    "username": "Zion",
+    "email": "zion@example.com",
+    "password": "CHANGE_ME_23",
+    "displayName": "Zion",
+    "userNumber": "23"
+  },
+  {
+    "username": "Ember",
+    "email": "ember@example.com",
+    "password": "CHANGE_ME_24",
+    "displayName": "Ember",
+    "userNumber": "24"
+  },
+  {
+    "username": "Maple",
+    "email": "maple@example.com",
+    "password": "CHANGE_ME_25",
+    "displayName": "Maple",
+    "userNumber": "25"
+  },
+  {
+    "username": "Storm",
+    "email": "storm@example.com",
+    "password": "CHANGE_ME_26",
+    "displayName": "Storm",
+    "userNumber": "26"
+  },
+  {
+    "username": "Finley",
+    "email": "finley@example.com",
+    "password": "CHANGE_ME_27",
+    "displayName": "Finley",
+    "userNumber": "27"
+  },
+  {
+    "username": "NovaX",
+    "email": "novax@example.com",
+    "password": "CHANGE_ME_28",
+    "displayName": "NovaX",
+    "userNumber": "28"
+  },
+  {
+    "username": "Ash",
+    "email": "ash@example.com",
+    "password": "CHANGE_ME_29",
+    "displayName": "Ash",
+    "userNumber": "29"
+  },
+  {
+    "username": "Zen",
+    "email": "zen@example.com",
+    "password": "CHANGE_ME_30",
+    "displayName": "Zen",
+    "userNumber": "30"
+  }
+]
