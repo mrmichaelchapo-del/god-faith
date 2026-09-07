@@ -179,3 +179,16 @@ function prayer14() {
 }
 
 prayer14();
+
+<!--- Prayer 15 --->
+function prayer15() {
+  console.log("Dear God,");
+  console.log("Thank You for all the blessings in my life.");
+  console.log("Help me remain thankful even during difficult moments.");
+  console.log("Give me patience, courage, and wisdom.");
+  console.log("Help me become a better person each day.");
+  console.log("May I always look for opportunities to do good.");
+  console.log("Amen.");
+}
+
+prayer15();
