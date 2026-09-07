@@ -73,6 +73,47 @@
 </head>
 
 <body>
+<nav class="navbar">
+  <div class="logo">My Website</div>
+
+  <div class="nav-links">
+    <a href="https://mrmichaelchapo-del.github.io/god-faith">Home</a>
+    <a href="/login.html">Log in</a>
+    <a href="https://github.com/mrmichaelchapo-del/god-faith">Source Code</a>
+    <a href="/privacy.html">Privacy Policy</a>
+  </div>
+</nav>
+
+<style>
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-links a {
+    color: #222;
+    text-decoration: none;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+</style>
 <button id="darkModeBtn">🌙 Dark Mode</button>
 
 <style>
