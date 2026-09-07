@@ -283,3 +283,16 @@ function prayer22() {
 }
 
 prayer22();
+
+<!--- Prayer 23 --->
+function prayer23() {
+  console.log("Dear God,");
+  console.log("Thank You for every person who has helped me along the way.");
+  console.log("Help me remember their kindness.");
+  console.log("Give me opportunities to help others in return.");
+  console.log("Help me choose compassion over anger.");
+  console.log("Guide me to be a positive influence.");
+  console.log("Amen.");
+}
+
+prayer23();
