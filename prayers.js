@@ -270,3 +270,16 @@ function prayer21() {
 }
 
 prayer21();
+
+<!--- Prayer 22 --->
+function prayer22() {
+  console.log("Dear God,");
+  console.log("Thank You for the dreams and goals in my heart.");
+  console.log("Help me work toward them with patience and determination.");
+  console.log("Give me wisdom to know when to change direction.");
+  console.log("Help me stay humble when things go well.");
+  console.log("Guide me on the path ahead.");
+  console.log("Amen.");
+}
+
+prayer22();
