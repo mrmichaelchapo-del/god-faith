@@ -296,3 +296,16 @@ function prayer23() {
 }
 
 prayer23();
+
+<!--- Prayer 24 --->
+function prayer24() {
+  console.log("Dear God,");
+  console.log("Thank You for the strength to keep learning and growing.");
+  console.log("Help me stay focused when distractions appear.");
+  console.log("Give me determination when work becomes challenging.");
+  console.log("Help me celebrate progress without comparing myself to others.");
+  console.log("Guide me toward wisdom and patience.");
+  console.log("Amen.");
+}
+
+prayer24();
