@@ -334,3 +334,15 @@ function prayer26() {
 }
 
 prayer26();
+
+<!--- Prayer 27 --->
+function prayer27() {
+  console.log("Dear God,");
+  console.log("Thank You for the people who make my life brighter.");
+  console.log("Help me appreciate their presence.");
+  console.log("Give me patience when things don't go as planned.");
+  console.log("Help me spread kindness wherever I go.");
+  console.log("Amen.");
+}
+
+prayer27();
