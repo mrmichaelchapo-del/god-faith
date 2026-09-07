@@ -420,3 +420,16 @@ function prayer33() {
 }
 
 prayer33();
+
+<!--- Prayer 34 --->
+function prayer34() {
+  console.log("Dear God,");
+  console.log("Thank You for giving me hope and another opportunity to grow.");
+  console.log("Help me stay strong when life feels challenging.");
+  console.log("Give me courage to try again when I make mistakes.");
+  console.log("Help me be grateful for the people in my life.");
+  console.log("Guide me through today and the days ahead.");
+  console.log("Amen.");
+}
+
+prayer34();
