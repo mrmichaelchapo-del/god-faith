@@ -114,3 +114,16 @@ function prayer9() {
 }
 
 prayer9();
+
+<!--- Prayer 10 --->
+function prayer10() {
+  console.log("Dear God,");
+  console.log("Thank You for this new day.");
+  console.log("Help me be grateful for what I have.");
+  console.log("Give me wisdom to make good choices.");
+  console.log("Help me be patient and kind to everyone I meet.");
+  console.log("Guide me throughout the day.");
+  console.log("Amen.");
+}
+
+prayer10();
