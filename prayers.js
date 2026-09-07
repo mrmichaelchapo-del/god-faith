@@ -127,3 +127,16 @@ function prayer10() {
 }
 
 prayer10();
+
+<!--- Prayer 11 --->
+function prayer11() {
+  console.log("Dear God,");
+  console.log("Thank You for the people who support and care for me.");
+  console.log("Help me show them how much I appreciate them.");
+  console.log("Give me courage when I face something difficult.");
+  console.log("Help me keep a positive and caring heart.");
+  console.log("Please guide me toward what is good.");
+  console.log("Amen.");
+}
+
+prayer11();
