@@ -346,3 +346,15 @@ function prayer27() {
 }
 
 prayer27();
+
+<!--- Prayer 28 --->
+function prayer28() {
+  console.log("Dear God,");
+  console.log("Thank You for the chance to learn something new each day.");
+  console.log("Help me stay curious and open-minded.");
+  console.log("Give me wisdom when I need to solve problems.");
+  console.log("Help me never stop growing.");
+  console.log("Amen.");
+}
+
+prayer28();
