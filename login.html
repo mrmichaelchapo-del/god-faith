@@ -88,7 +88,15 @@
       window.location.href = "profile.html";
     });
   </script>
-
+fetch("/save", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({{
+  "username": "New user",
+  "displayName": "not indexed"
+  "userNumber": []
+}})
+});
 <p>Login to access your prayers to God.</p>
 </body>
 </html>
