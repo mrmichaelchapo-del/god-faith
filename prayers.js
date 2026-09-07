@@ -166,3 +166,16 @@ function prayer13() {
 }
 
 prayer13();
+
+<!--- Prayer 14 --->
+function prayer14() {
+  console.log("Dear God,");
+  console.log("Thank You for giving me strength to face each new day.");
+  console.log("Help me make choices that reflect kindness and honesty.");
+  console.log("Give me confidence to try new things.");
+  console.log("Help me respect and understand the people around me.");
+  console.log("Please watch over my family and friends.");
+  console.log("Amen.");
+}
+
+prayer14();
