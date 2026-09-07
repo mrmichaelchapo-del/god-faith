@@ -358,3 +358,27 @@ function prayer28() {
 }
 
 prayer28();
+
+<!--- Prayer 29 --->
+function prayer29() {
+  console.log("Dear God,");
+  console.log("Thank You for the good things in my life.");
+  console.log("Help me remember to be grateful for them.");
+  console.log("Give me courage when I feel uncertain.");
+  console.log("Help me choose kindness even when it is difficult.");
+  console.log("Amen.");
+}
+
+prayer29();
+
+<!--- Prayer 30 --->
+function prayer30() {
+  console.log("Dear God,");
+  console.log("Thank You for helping me through every season of life.");
+  console.log("Help me remain hopeful when circumstances change.");
+  console.log("Give me wisdom to make thoughtful decisions.");
+  console.log("Please guide me and those I care about.");
+  console.log("Amen.");
+}
+
+prayer30();
