@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PrayerAI - Home</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+
+            background: #111;
+            color: white;
+        }
+
+        .container {
+            width: min(700px, 90%);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+        }
+
+        #prayer {
+            min-height: 250px;
+
+            padding: 25px;
+
+            background: #1d1d1d;
+            border: 1px solid #333;
+            border-radius: 12px;
+
+            text-align: left;
+
+            white-space: pre-line;
+
+            line-height: 1.7;
+
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 14px 22px;
+
+            border: none;
+            border-radius: 10px;
+
+            background: white;
+            color: black;
+
+            font-size: 16px;
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.85;
+        }
+     body {
+    font-family: sans-serif;
+     }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Prayer Generator</h1>
+
+    <div id="prayer">
+        Click the button to generate a prayer.
+    </div>
+
+    <button onclick="generatePrayer()">
+        Generate Random Prayer
+    </button>
+
+</div>
+
+
+<script>
+
+const prayers = [
+
+`Dear God,
+Thank You for this day and for the people and blessings in my life.
+Please give me wisdom, strength, and kindness.
+Help me make good choices and treat others with compassion.
+Please watch over my family, friends, and everyone who needs help.
+Amen.`,
+
+`Dear God,
+Thank You for giving me another day.
+Help me stay hopeful when things are difficult.
+Give me patience when I am frustrated and courage when I am afraid.
+Help me learn from my mistakes and grow into a better person.
+Please bring peace, safety, and kindness to those around me.
+Guide me in everything I do.
+Amen.`,
+
+`Dear God,
+Thank You for the gift of life and for the opportunities each new day brings.
+Help me be patient, thoughtful, and kind toward others.
+Give me wisdom to make good decisions and strength to keep going when things are hard.
+Please watch over my family, friends, and everyone who needs help.
+Help me appreciate the good things in my life and never take them for granted.
+Amen.`,
+
+`Dear God,
+Thank You for today and for all the blessings around me.
+Help me have a peaceful heart and a clear mind.
+Give me courage to face challenges and wisdom to choose what is right.
+Help me be kind, forgiving, and helpful to others.
+Please watch over my loved ones and guide us through each day.
+Amen.`,
+
+`Dear God,
+Thank You for giving me another chance to learn and grow.
+Help me find hope when I feel discouraged.
+Give me strength to keep trying and patience when things take time.
+Help me bring kindness and encouragement wherever I go.
+Please guide my path and help me make choices that bring goodness into the world.
+Amen.`,
+
+`Dear God,
+Thank You for the people who care about me.
+Help me show gratitude for the blessings in my life.
+Give me wisdom, patience, and courage.
+Guide me toward kindness and understanding.
+Please watch over those who need Your help.
+Amen.`,
+
+`Dear God,
+Thank You for giving me a new day.
+Help me learn from yesterday and make today meaningful.
+Give me strength to face difficulties.
+Help me treat everyone with respect and compassion.
+Guide my thoughts, words, and actions.
+Amen.`,
+
+`Dear God,
+Thank You for the beauty and goodness in the world.
+Help me notice the little things that bring joy.
+Give me peace when I am worried.
+Help me be a source of kindness to others.
+Please guide me and keep my loved ones safe.
+Amen.`,
+
+`Dear God,
+Thank You for being with me through every day.
+Help me stay hopeful and keep moving forward.
+Give me wisdom when I have difficult choices to make.
+Help me forgive, learn, and grow.
+May I use my time to do good and help others.
+Amen.`,
+
+`Dear God,
+Thank You for this new day.
+Help me be grateful for what I have.
+Give me wisdom to make good choices.
+Help me be patient and kind to everyone I meet.
+Guide me throughout the day.
+Amen.`,
+
+`Dear God,
+Thank You for the people who support and care for me.
+Help me show them how much I appreciate them.
+Give me courage when I face something difficult.
+Help me keep a positive and caring heart.
+Please guide me toward what is good.
+Amen.`,
+
+`Dear God,
+Thank You for every opportunity to learn something new.
+Help me stay curious and willing to grow.
+Give me focus when I need to work hard.
+Help me learn from my mistakes instead of giving up.
+Guide me toward wisdom and understanding.
+Amen.`,
+
+`Dear God,
+Thank You for the moments of happiness in my life.
+Help me appreciate them and share that happiness with others.
+Give me peace when my mind feels busy.
+Help me respond to challenges with patience.
+Please guide me wherever I go.
+Amen.`,
+
+`Dear God,
+Thank You for giving me strength to face each new day.
+Help me make choices that reflect kindness and honesty.
+Give me confidence to try new things.
+Help me respect and understand the people around me.
+Please watch over my family and friends.
+Amen.`,
+
+`Dear God,
+Thank You for all the blessings in my life.
+Help me remain thankful even during difficult moments.
+Give me patience, courage, and wisdom.
+Help me become a better person each day.
+May I always look for opportunities to do good.
+Amen.`,
+
+`Dear God,
+Thank You for the gift of another day.
+Help me walk through today with kindness and wisdom.
+Give me strength when I face challenges.
+Help me appreciate the people and opportunities around me.
+Guide my decisions and actions.
+Amen.`,
+
+`Dear God,
+Thank You for the blessings I sometimes overlook.
+Help me notice the good things in everyday life.
+Give me a grateful heart and a helpful spirit.
+Help me encourage others when they need support.
+Guide me toward peace and understanding.
+Amen.`,
+
+`Dear God,
+Thank You for giving me opportunities to grow.
+Help me learn from both my successes and mistakes.
+Give me patience when progress feels slow.
+Help me keep trying when something is difficult.
+Guide me toward becoming wiser and kinder.
+Amen.`,
+
+`Dear God,
+Thank You for the people who bring kindness into my life.
+Help me return that kindness to others.
+Give me the courage to stand up for what is right.
+Help me listen before I judge.
+Guide my words so they bring encouragement.
+Amen.`,
+
+`Dear God,
+Thank You for the peace and beauty around me.
+Help me slow down and appreciate each moment.
+Give me a calm heart when I feel overwhelmed.
+Help me focus on what truly matters.
+Guide me through the choices I make today.
+Amen.`,
+
+`Dear God,
+Thank You for giving me another chance to do better.
+Help me leave yesterday's mistakes behind and learn from them.
+Give me courage to apologize when I am wrong.
+Help me forgive others and myself.
+Guide me toward better choices.
+Amen.`,
+
+`Dear God,
+Thank You for the dreams and goals in my heart.
+Help me work toward them with patience and determination.
+Give me wisdom to know when to change direction.
+Help me stay humble when things go well.
+Guide me on the path ahead.
+Amen.`,
+
+`Dear God,
+Thank You for every person who has helped me along the way.
+Help me remember their kindness.
+Give me opportunities to help others in return.
+Help me choose compassion over anger.
+Guide me to be a positive influence.
+Amen.`,
+
+`Dear God,
+Thank You for the strength to keep learning and growing.
+Help me stay focused when distractions appear.
+Give me determination when work becomes challenging.
+Help me celebrate progress without comparing myself to others.
+Guide me toward wisdom and patience.
+Amen.`,
+
+`Dear God,
+Thank You for bringing me to the end of another day.
+Help me remember the good moments from today.
+Help me learn from anything that did not go well.
+Give me peace as I rest and prepare for tomorrow.
+Please watch over the people I care about.
+Amen.`,
+
+`Dear God,
+Thank You for the gift of today.
+Help me use my time wisely and treat others with kindness.
+Give me strength when I face challenges.
+Guide my thoughts, words, and actions.
+Amen.`,
+
+`Dear God,
+Thank You for the people who make my life brighter.
+Help me appreciate their presence.
+Give me patience when things don't go as planned.
+Help me spread kindness wherever I go.
+Amen.`,
+
+`Dear God,
+Thank You for the chance to learn something new each day.
+Help me stay curious and open-minded.
+Give me wisdom when I need to solve problems.
+Help me never stop growing.
+Amen.`,
+
+`Dear God,
+Thank You for the good things in my life.
+Help me remember to be grateful for them.
+Give me courage when I feel uncertain.
+Help me choose kindness even when it is difficult.
+Amen.`,
+
+`Dear God,
+Thank You for helping me through every season of life.
+Help me remain hopeful when circumstances change.
+Give me wisdom to make thoughtful decisions.
+Please guide me and those I care about.
+Amen.`,
+
+`Dear God,
+Thank You for the opportunities that are ahead.
+Help me approach them with courage and humility.
+Give me focus when I need it most.
+Help me use my abilities to make a positive difference.
+Amen.`,
+
+`Dear God,
+Thank You for another day filled with possibilities.
+Help me be thoughtful toward everyone I meet.
+Give me peace when I feel worried.
+Help me remember that every day is a chance to grow.
+Please guide me on the path ahead.
+Amen.`
+
+];
+
+
+function generatePrayer() {
+
+    const randomIndex =
+        Math.floor(
+            Math.random() * prayers.length
+        );
+
+    const selectedPrayer =
+        prayers[randomIndex];
+
+    document.getElementById(
+        "prayer"
+    ).textContent = selectedPrayer;
+
+}
+
+</script>
+
+<p>PrayerAI is a AI model to generate prayers for Jesus. Click the button to create one!<p>
+</body>
+</html>
