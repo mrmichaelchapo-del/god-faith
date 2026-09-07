@@ -62,3 +62,16 @@ function prayer5() {
 }
 
 prayer5();
+
+<!--- Prayer 6 --->
+function prayer6() {
+  console.log("Dear God,");
+  console.log("Thank You for the people who care about me.");
+  console.log("Help me show gratitude for the blessings in my life.");
+  console.log("Give me wisdom, patience, and courage.");
+  console.log("Guide me toward kindness and understanding.");
+  console.log("Please watch over those who need Your help.");
+  console.log("Amen.");
+}
+
+prayer6();
