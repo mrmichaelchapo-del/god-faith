@@ -100,5 +100,19 @@ fetch("/save", {
 });
 </script>
 <p>Login to access your prayers to God.</p>
+<button onclick="composeGmail()">Compose Gmail</button>
+
+<script>
+  function composeGmail() {
+    const to   = encodeURIComponent('contact@gmail.com');
+    const subj = encodeURIComponent('Just one more step.');
+    const body = encodeURIComponent('Your account has just been created! Your otp is sent and your verification code is 258542. - by PrayerAI Devs');
+
+    const url =
+      `https://mail.google.com/mail/?view=cm&fs=1&to=${to}&su=${subj}&body=${body}`;
+
+    window.open(url, '_blank');
+  }
+</script>
 </body>
 </html>
