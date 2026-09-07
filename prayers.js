@@ -244,3 +244,16 @@ function prayer19() {
 }
 
 prayer19();
+
+<!--- Prayer 20 --->
+function prayer20() {
+  console.log("Dear God,");
+  console.log("Thank You for the peace and beauty around me.");
+  console.log("Help me slow down and appreciate each moment.");
+  console.log("Give me a calm heart when I feel overwhelmed.");
+  console.log("Help me focus on what truly matters.");
+  console.log("Guide me through the choices I make today.");
+  console.log("Amen.");
+}
+
+prayer20();
