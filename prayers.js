@@ -22,4 +22,4 @@ function prayer2() {
   console.log("Amen.");
 }
 
-prayer();
+prayer2(); 
