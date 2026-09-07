@@ -75,3 +75,16 @@ function prayer6() {
 }
 
 prayer6();
+
+<!--- Prayer 7 --->
+function prayer7() {
+  console.log("Dear God,");
+  console.log("Thank You for giving me a new day.");
+  console.log("Help me learn from yesterday and make today meaningful.");
+  console.log("Give me strength when I face difficulties.");
+  console.log("Help me treat everyone with respect and compassion.");
+  console.log("Guide my thoughts, words, and actions.");
+  console.log("Amen.");
+}
+
+prayer7();
