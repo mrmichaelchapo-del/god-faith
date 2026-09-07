@@ -88,3 +88,16 @@ function prayer7() {
 }
 
 prayer7();
+
+<!--- Prayer 8 --->
+function prayer8() {
+  console.log("Dear God,");
+  console.log("Thank You for the beauty and goodness in the world.");
+  console.log("Help me notice the little things that bring joy.");
+  console.log("Give me peace when I am worried.");
+  console.log("Help me be a source of kindness to others.");
+  console.log("Please guide me and keep my loved ones safe.");
+  console.log("Amen.");
+}
+
+prayer8();
