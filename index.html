@@ -73,6 +73,41 @@
 </head>
 
 <body>
+<button id="darkModeBtn">🌙 Dark Mode</button>
+
+<style>
+  body {
+    background: white;
+    color: black;
+    transition: 0.2s;
+  }
+
+  body.dark {
+    background: #121212;
+    color: white;
+  }
+
+  button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  const button = document.getElementById("darkModeBtn");
+
+  button.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+      button.textContent = "☀️ Light Mode";
+    } else {
+      button.textContent = "🌙 Dark Mode";
+    }
+  });
+</script>
 
 <div class="container">
 
