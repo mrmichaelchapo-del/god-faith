@@ -101,3 +101,16 @@ function prayer8() {
 }
 
 prayer8();
+
+<!--- Prayer 9 --->
+function prayer9() {
+  console.log("Dear God,");
+  console.log("Thank You for being with me through every day.");
+  console.log("Help me stay hopeful and keep moving forward.");
+  console.log("Give me wisdom when I have difficult choices to make.");
+  console.log("Help me forgive, learn, and grow.");
+  console.log("May I use my time to do good and help others.");
+  console.log("Amen.");
+}
+
+prayer9();
