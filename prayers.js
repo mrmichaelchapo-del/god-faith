@@ -257,3 +257,16 @@ function prayer20() {
 }
 
 prayer20();
+
+<!--- Prayer 21 --->
+function prayer21() {
+  console.log("Dear God,");
+  console.log("Thank You for giving me another chance to do better.");
+  console.log("Help me leave yesterday's mistakes behind and learn from them.");
+  console.log("Give me courage to apologize when I am wrong.");
+  console.log("Help me forgive others and myself.");
+  console.log("Guide me toward better choices.");
+  console.log("Amen.");
+}
+
+prayer21();
