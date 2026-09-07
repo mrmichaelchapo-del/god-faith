@@ -1,0 +1,32 @@
+{
+  "username": "Team",
+  "email": "mr.michaelchapo@gmail.com",
+  "password": "5947$#a_9)/4h",
+  "displayName": "admin user"
+  "userNumber": "1"
+}
+{
+  "username": "User 2",
+  "email": "mr.michaellan@gmail.com",
+  "password": "$&$794d8(/h",
+  "displayName": "user 2"
+  "userNumber": "2"
+}
+{
+  "username": "Lan",
+  "email": "lanyourgod@gmail.com",
+  "password": "lan4840@+)'la",
+  "displayName": "Lan"
+  "userNumber": "3"
+}
+{
+  "displayName": "REDIRECT, CANNOT BE ACCESSED"
+  "userNumber": "4"
+}
+{
+  "username": "Team 2 (DEV)",
+  "email": "DEVELOPER@gmail.com",
+  "password": "488_+$#fidev",
+  "displayName": "fidev"
+  "userNumber": "5"
+}
