@@ -382,3 +382,15 @@ function prayer30() {
 }
 
 prayer30();
+
+<!--- Prayer 31 --->
+function prayer31() {
+  console.log("Dear God,");
+  console.log("Thank You for the opportunities that are ahead.");
+  console.log("Help me approach them with courage and humility.");
+  console.log("Give me focus when I need it most.");
+  console.log("Help me use my abilities to make a positive difference.");
+  console.log("Amen.");
+}
+
+prayer31();
