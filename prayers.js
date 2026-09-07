@@ -11,7 +11,7 @@ function prayer() {
 prayer();
 
 <!--- Prayer 2 --->
-function prayer() {
+function prayer2() {
   console.log("Dear God,");
   console.log("Thank You for giving me another day.");
   console.log("Help me stay hopeful when things are difficult.");
