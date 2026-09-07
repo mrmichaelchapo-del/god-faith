@@ -36,3 +36,16 @@ function prayer3() {
 }
 
 prayer3();
+
+<!--- Prayer 4 --->
+function prayer4() {
+  console.log("Dear God,");
+  console.log("Thank You for today and for all the blessings around me.");
+  console.log("Help me have a peaceful heart and a clear mind.");
+  console.log("Give me courage to face challenges and wisdom to choose what is right.");
+  console.log("Help me be kind, forgiving, and helpful to others.");
+  console.log("Please watch over my loved ones and guide us through each day.");
+  console.log("Amen.");
+}
+
+prayer4();
