@@ -322,3 +322,15 @@ function prayer25() {
 }
 
 prayer25();
+
+<!--- Prayer 26 --->
+function prayer26() {
+  console.log("Dear God,");
+  console.log("Thank You for the gift of today.");
+  console.log("Help me use my time wisely and treat others with kindness.");
+  console.log("Give me strength when I face challenges.");
+  console.log("Guide my thoughts, words, and actions.");
+  console.log("Amen.");
+}
+
+prayer26();
