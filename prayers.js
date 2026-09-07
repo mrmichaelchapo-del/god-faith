@@ -23,3 +23,16 @@ function prayer2() {
 }
 
 prayer2(); 
+
+<!--- Prayer 3 --->
+function prayer3() {
+  console.log("Dear God,");
+  console.log("Thank You for the gift of life and for the opportunities each new day brings.");
+  console.log("Help me be patient, thoughtful, and kind toward others.");
+  console.log("Give me wisdom to make good decisions and strength to keep going when things are hard.");
+  console.log("Please protect the people I care about and bring peace to those who are struggling.");
+  console.log("Help me appreciate the good things in my life and never take them for granted.");
+  console.log("Amen.");
+}
+
+prayer3();
