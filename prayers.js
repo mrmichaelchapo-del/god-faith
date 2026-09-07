@@ -192,3 +192,16 @@ function prayer15() {
 }
 
 prayer15();
+
+<!--- Prayer 16 --->
+function prayer16() {
+  console.log("Dear God,");
+  console.log("Thank You for the gift of another day.");
+  console.log("Help me walk through today with kindness and wisdom.");
+  console.log("Give me strength when I face challenges.");
+  console.log("Help me appreciate the people and opportunities around me.");
+  console.log("Guide my decisions and actions.");
+  console.log("Amen.");
+}
+
+prayer16();
