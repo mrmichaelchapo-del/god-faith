@@ -407,3 +407,16 @@ function prayer32() {
 }
 
 prayer32();
+
+<!--- Prayer 33 --->
+function prayer33() {
+  console.log("Dear God,");
+  console.log("Thank You for the blessings that surround me.");
+  console.log("Help me recognize the good in each day.");
+  console.log("Give me wisdom when I have difficult decisions to make.");
+  console.log("Help me show patience, kindness, and understanding.");
+  console.log("Guide me toward choices that help others.");
+  console.log("Amen.");
+}
+
+prayer33();
