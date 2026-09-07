@@ -140,3 +140,16 @@ function prayer11() {
 }
 
 prayer11();
+
+<!--- Prayer 12 --->
+function prayer12() {
+  console.log("Dear God,");
+  console.log("Thank You for every opportunity to learn something new.");
+  console.log("Help me stay curious and willing to grow.");
+  console.log("Give me focus when I need to work hard.");
+  console.log("Help me learn from my mistakes instead of giving up.");
+  console.log("Guide me toward wisdom and understanding.");
+  console.log("Amen.");
+}
+
+prayer12();
