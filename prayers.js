@@ -309,3 +309,16 @@ function prayer24() {
 }
 
 prayer24();
+
+<!--- Prayer 25 --->
+function prayer25() {
+  console.log("Dear God,");
+  console.log("Thank You for bringing me to the end of another day.");
+  console.log("Help me remember the good moments from today.");
+  console.log("Help me learn from anything that did not go well.");
+  console.log("Give me peace as I rest and prepare for tomorrow.");
+  console.log("Please watch over the people I care about.");
+  console.log("Amen.");
+}
+
+prayer25();
