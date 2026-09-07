@@ -153,3 +153,16 @@ function prayer12() {
 }
 
 prayer12();
+
+<!--- Prayer 13 --->
+function prayer13() {
+  console.log("Dear God,");
+  console.log("Thank You for the moments of happiness in my life.");
+  console.log("Help me appreciate them and share that happiness with others.");
+  console.log("Give me peace when my mind feels busy.");
+  console.log("Help me respond to challenges with patience.");
+  console.log("Please guide me wherever I go.");
+  console.log("Amen.");
+}
+
+prayer13();
