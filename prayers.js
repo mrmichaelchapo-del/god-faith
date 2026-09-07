@@ -49,3 +49,16 @@ function prayer4() {
 }
 
 prayer4();
+
+<!--- Prayer 5 --->
+function prayer5() {
+  console.log("Dear God,");
+  console.log("Thank You for giving me another chance to learn and grow.");
+  console.log("Help me find hope when I feel discouraged.");
+  console.log("Give me strength to keep trying and patience when things take time.");
+  console.log("Help me bring kindness and encouragement wherever I go.");
+  console.log("Please guide my path and help me make choices that bring goodness into the world.");
+  console.log("Amen.");
+}
+
+prayer5();
