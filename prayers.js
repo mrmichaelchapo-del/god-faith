@@ -394,3 +394,16 @@ function prayer31() {
 }
 
 prayer31();
+
+<!--- Prayer 32 --->
+function prayer32() {
+  console.log("Dear God,");
+  console.log("Thank You for another day filled with possibilities.");
+  console.log("Help me be thoughtful toward everyone I meet.");
+  console.log("Give me peace when I feel worried.");
+  console.log("Help me remember that every day is a chance to grow.");
+  console.log("Please guide me on the path ahead.");
+  console.log("Amen.");
+}
+
+prayer32();
