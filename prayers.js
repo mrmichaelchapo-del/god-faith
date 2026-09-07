@@ -218,3 +218,16 @@ function prayer17() {
 }
 
 prayer17();
+
+<!--- Prayer 18 --->
+function prayer18() {
+  console.log("Dear God,");
+  console.log("Thank You for giving me opportunities to grow.");
+  console.log("Help me learn from both my successes and mistakes.");
+  console.log("Give me patience when progress feels slow.");
+  console.log("Help me keep trying when something is difficult.");
+  console.log("Guide me toward becoming wiser and kinder.");
+  console.log("Amen.");
+}
+
+prayer18();
