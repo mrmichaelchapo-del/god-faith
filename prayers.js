@@ -231,3 +231,16 @@ function prayer18() {
 }
 
 prayer18();
+
+<!--- Prayer 19 --->
+function prayer19() {
+  console.log("Dear God,");
+  console.log("Thank You for the people who bring kindness into my life.");
+  console.log("Help me return that kindness to others.");
+  console.log("Give me the courage to stand up for what is right.");
+  console.log("Help me listen before I judge.");
+  console.log("Guide my words so they bring encouragement.");
+  console.log("Amen.");
+}
+
+prayer19();
