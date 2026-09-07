@@ -205,3 +205,16 @@ function prayer16() {
 }
 
 prayer16();
+
+<!--- Prayer 17 --->
+function prayer17() {
+  console.log("Dear God,");
+  console.log("Thank You for the blessings I sometimes overlook.");
+  console.log("Help me notice the good things in everyday life.");
+  console.log("Give me a grateful heart and a helpful spirit.");
+  console.log("Help me encourage others when they need support.");
+  console.log("Guide me toward peace and understanding.");
+  console.log("Amen.");
+}
+
+prayer17();
